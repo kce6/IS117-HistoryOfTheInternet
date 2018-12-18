@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [HTML5 Boilerplate](https://html5boilerplate.com/)
 
 [![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
@@ -91,3 +92,6 @@ the [guidelines](.github/CONTRIBUTING.md):
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).
+=======
+# IS117-HistoryOfTheInternet
+>>>>>>> 90cd6b5efff0fb1a9148c811514d5fb8056e81eb
