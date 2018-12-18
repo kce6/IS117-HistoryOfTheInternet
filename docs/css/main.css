@@ -102,24 +102,42 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-  padding-top: 5rem;
-}
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+/*
+ * NavBar
+ */
+
+header {
+  padding: 40px 0 40px;
 }
 
+@media (min-width: 992px) {
+  header {
+    padding: 40px 0 40px;
+  }
+}
 
+section {
+  padding: 40px 0;
+}
+
+/*
+ * Jumbotron
+ */
 
 .jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: .3rem;
+  background-image: url("../img/connections.jpg");
+  background-size: cover;
+  min-height: 800px;
 }
 
+/*
+ * Card Padding
+ */
 
+.card {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 
 
