@@ -1,0 +1,3 @@
+ The origins of inter-networked computers has its origin in post-World War II United States.  Originally beginning as a government project,
+        the first computers directly connected over a network saw speeds of only 50 kilobytes per second (kbps).  Little did they know, that
+        in the years to come, we would come to see speeds 10 times as fast as that as the standard.

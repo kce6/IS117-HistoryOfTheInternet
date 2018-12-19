@@ -12,6 +12,10 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
@@ -32,7 +36,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+          <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="history.html">History of Connection Types</a>
@@ -45,19 +49,92 @@
   </div>
 </nav>
 
+<!-- Main Content Body -->
+<div id="contentBody" class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>High-Speed Internet Connections</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="history.html">History</a></li>
+        <li class="active"><a href="modernday.html">Modern Day</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul><br>
+    </div>
+
+    <div class="col-sm-9">
+      <h2>Modern Day Applications of High Speed Connections</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Kenneth Eisenhardt, Dec. 18, 2018.</h5>
+      <h5><span class="label label-danger">Networks</span> <span class="label label-primary">Current Applications</span></h5><br>
+      <p>Network connections have come an incredible distance from their humble beginnings in the 1970's.  In 2018, we have seen network speeds
+        surpass 1 Gigabye per second (Gbps) for home use, something the original creators of interconnected computers never would have imagined.
+        But sometimes it can be hard to determine what types of connections and network speeds you, as a home user, should be paying for.  In addition,
+        it can be confusing to know whether high upload speeds are also worth paying for.
+      </p>
+      <p>
+        In this article I hope to help break down and explain the differences between the most common types of connections available to home users, and,
+        based on different use cases, provide insight as to which connections would benefit you the most.
+      </p>
+      <br>
+      <ol>
+        <li><h3>Cable Internet Connection</h3></li>
+        <br>
+        <p>
+          Beginning this list is the most common type of internet connection for home users today.  Cable internet connections can provide speeds
+          that reach close to 1 Gigabit per second.  Generally speaking, most cable internet packages range from 50 megabits per second on the lower end
+          of the scale, to 400 megabits per second on the higher end.  For the casual home user with children, a 100-150 megabit connection will provide
+          ample network speeds to handle 4+ users in your household, without speed degredation.
+        </p>
+      </ol>
+      <p>
+        It is import to clarify the difference between network speeds to the internet backbone and for private use.  Internet speeds for the backbone,
+        or, the main routing computers, was, and still is, considerably faster than it's private sector counterparts, and for good reason.  The backbone
+        needs the fastest speeds possible to serve all of its end-users.  The backbone speeds is so much faster and ahead of private sector speeds that
+        in 1986, when the first iteration of the internet backbone came online, it saw speeds of 56kbps.  There are still some areas of the country which
+        today which still use dial-up connections and see the exact same speeds.  In this article, we will be focusing on, and breaking down, only
+        private sector, or home use connections, as they are the most practical applications.  Without further adieu, let's take a look at the history
+        of high-speed internet connections.
+      </p>
+      <br>
+      <ol>
+        <li><h3>Dial-Up Connections</h3></li>
+        <br>
+        <p>
+          Dial-up is a term used to describe internet connections which utilize telephone wires and modem to access the internet.  These connections
+          are incredibly slow and are intentionally limited to 56kps so as not to interfere with telephone communications.  In 1993, when the World Wide Web
+          was first introduced, Dial-Up connections were the standard for the private sector.  While connection speeds have certainly surpassed 56kbps,
+          many rural areas across the United States still only have access to dial-up connections and as such have incredibly slow network speeds.  Pictured below
+          is an old dial-up modem.
+        </p>
+        <img id="modem" src="img/modem.jpg">
+        <br>
+        <li><h3>Broadband Connections</h3></li>
+        <br>
+        <p>
+          Broadband connections can be devided into two major categories: Cable and DSL.  The major distinction between cable and DSL is that cable
+          has a higher ceiling for max speeds.  DSL connections still travel over phone lines but are rated for speeds up to about 3 megabytes per second (Mbps).
+          Cable, on the other hand, is capable of attaining speeds of up to two or three times as fast as DSL.  It is important to note that in the modern age,
+          both of these connections are slow and as such are referred to as "the last mile" connections.  This refers to the fact that all other cabling used to
+          connect to the internet is currently Fiber Optic, and the "last mile" of cabling used to run from telephone wires to actual buildings still use copper
+          wiring.  Below, a traditional copper cable, also know as a Cat5 cable, is being used to provide an internet connection to a router.
+        </p>
+        <img id="cat5" src="img/cat5.jpg">
+      </ol>
+    </div>
+  </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-  ga('create', 'UA-31454001-3', 'auto'); ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-31454001-3', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
