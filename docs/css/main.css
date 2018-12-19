@@ -177,9 +177,19 @@ footer {
   .row.content {height: auto;}
 }
 
+/*
+ * modernday.html
+ */
 
+#fiber{
+  padding-bottom: 20px;
+  height: 600px;
+  width: 1000px;
+}
 
-
+#infiniband {
+  padding-top: 10px;
+}
 
 
 
